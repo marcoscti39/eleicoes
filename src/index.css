@@ -1,0 +1,42 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #04F06A;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 1rem;
+  justify-content: center;
+}
+.card{
+  position: relative;
+  background-color: rgb(20, 192, 20);
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.votos-container{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+}
+
+.progress-bar{
+  height: 10px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  border-radius: 10px;
+}
